@@ -80,7 +80,7 @@ MODULE_PARM_DESC(monochrome_mode, "Set for monochrome sensor: 1=mono, 0=color");
 
 /* Black level control */
 #define IMX585_REG_BLKLEVEL				0x30DC
-#define IMX585_BLKLEVEL_DEFAULT			0
+#define IMX585_BLKLEVEL_DEFAULT			0x32
 
 /* Digital Clamp */
 #define IMX585_REG_DIGITAL_CLAMP		0x3458
